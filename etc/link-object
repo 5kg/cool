@@ -46,7 +46,7 @@ shift
 for f
 do
    echo "linking $f"
-   xname=${COOL_INST}/lib/.${arch}/PA$num/$f
+   xname=${COOL_INST}/bin/ref$f
    if [ -f $xname ]; then
       ln -s $xname $f
    else
